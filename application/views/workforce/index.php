@@ -36,7 +36,7 @@
                                         <th>Description</th>
                                         <th>Aadhar Number</th>
                                         <th>Mobile Number</th>
-                                        <th>Status</th>
+                                        <!-- <th>Status</th> -->
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -49,7 +49,7 @@
                                         <td><?= $workforce['description'] ?></td>
                                         <td><?= $workforce['aadhar_number'] ?></td>
                                         <td><?= $workforce['mobile_number'] ?></td>
-                                        <td><?= $workforce['status'] ?></td>
+                                        <!-- <td><?= $workforce['status'] ?></td> -->
                                         <td>
                                             <a href="<?= site_url('workforce/edit/'.$workforce['id']) ?>"
                                                 class="fa fas fa-edit"></a>
